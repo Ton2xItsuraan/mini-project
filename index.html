@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/71e70727c2.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="vh-100" id="main-page">
+    <!-- ###### NavBar ###### -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+    <!-- ##### Logo ###### -->
+        <a class="navbar-brand" href="index.html"><h1>ALV</h1></a>
+    <!-- ####### Toggle Btn ####### -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <!-- ##### SideBar ###### -->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+    <!-- ###### Sidebar Header ###### -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ALV</h5>
+            <button 
+              type="button" 
+              class="btn-close btn-close-white shadow-none" 
+              data-bs-dismiss="offcanvas" 
+              aria-label="Close">
+            </button>
+          </div>
+
+      <!-- ###### Sidebar Body ###### -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#my-intro">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about-me">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#my-projects">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#my-contacts">Contact</a>
+              </li>
+            </ul>
+       <!--  ###### login / Sign up ######  -->
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+              <a href="#login" class="text-white text-decoration-none">Login</a>
+              <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #90ADC6;">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+      <!-- ###### Main Page ###### -->
+
+<!--  ########################## First Row ###################### -->
+       <section class="container-fluid" id="my-intro"> 
+        <div class="first-row row">
+          <div class="main-col col"></div>
+          <div class="main-col col-sm-12 col-lg-4">
+            <h1 class="my-name fs-1" >Hi! My Name is Antoine</h1> <br>
+            <h4 class="my-intro fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam iure modi, neque veritatis cum odio, in corporis illo expedita non explicabo hic sed dolorum recusandae? Repellat dolor recusandae nam?</h4> <br> <br>
+            <button type="button" class="first-row-button btn btn-primary"><a href="#my-contacts ">WORK WITH ME</a></button>
+          </div>
+          <div class="main-col col-sm-12 col-lg-4"><img src="images/prof-pic-antoine.png" class="img-fluid" style="border-radius: 10px; max-width: 75%; height: auto;" alt="..."></div>
+          <div class="main-col col"></div>
+        </div>
+      </section>
+      
+<!-- ##################### 2nd Row ######################## -->
+<img src="images/antoine-ludel-villanueva-low-resolution-logo-color-on-transparent-background.png" alt="" style="position: absolute; height: 100px; top: 125vh; right: 200px; transform: rotate(30deg); opacity: .50;">
+
+      <section class="container-fluid" id="about-me"> 
+        <div class="second-row row">
+          <div class="main-col col"></div>
+          <div class="main-col col-sm-12 col-lg-4">
+            <h1 class="I-make-SWS fs-1 fw-bold">I MAKE <br> SPECTACULAR <br> WEBSITES</h1>
+          </div>
+          <div class="main-col col-sm-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+            <h4 class="I-make-SWS fw-normal" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sequi corrupti dignissimos voluptatibus odit error quidem nam nulla, vero debitis adipisci delectus. Laborum facilis possimus unde cupiditate quo dignissimos fugiat.</h4> <br>
+            <button type="button" class="second-row-button btn btn-primary"><a href="#my-projects">SEE WHAT I'VE DONE</a></button>
+          </div>
+          <div class="main-col col"></div>
+        </div>
+      </section>
+
+      
+
+<!-- ######################## Third Row ###################### -->
+      <section class="container-fluid" id="my-projects">
+        <div class="third-row row">
+          <div class="main-col col"></div>
+          <div class="main-col col-sm-12 col-8">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4" style="font-weight: bold; color: #E9EAEC;">My Projects</h1>
+                <p class="lead" style="font-weight: 600; color: #E9EAEC;">Total Radness Since 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-col col"></div>
+        </div>
+      </section>
+      
+<!-- ################### Fourth Row ###################### -->
+       <section class="container-fluid">
+        <div class="fourth-row row">
+          <div class="main-col col"></div>
+          <div class="main-col col-6">
+            <div id="Main-carousel" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Landing page.JPG" class="d-block w-100" alt="First-slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 3px 3px 5px #333652, 0 0 10px #FAD02C;">Landing Page</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/eCommerce Shop using WooCommerce.JPG" class="d-block w-100" alt="second-slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 3px 3px 5px #333652, 0 0 10px #FAD02C;">eCommerce Web</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Capture.JPG" class="d-block w-100" alt="third-slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 3px 3px 5px #333652, 0 0 10px #FAD02C;">Home Page</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Pop-up sign up form.JPG" class="d-block w-100" alt="fourth-slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 3px 3px 5px #333652, 0 0 10px #FAD02C;">Pop-up Sign Up Page</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#Main-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#Main-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="main-col col"></div>
+        </div>
+      </section>
+      
+<!-- ################### Fifth Row ####################### -->
+        <section class="container-fluid">
+        <div class="fifth-row row">
+          <div class="main-col col-sm-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="display-4" style="font-weight: 700;">WHAT I DO</h1>
+          </div>
+          <div class="main-col col-sm-12 col-lg-4 p-5">
+            <h3>Front-End Web Dev</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio facilis vero unde explicabo earum eum quis sequi inventore! Velit accusamus maiores eligendi id quaerat illo odit nihil iure laudantium pariatur?</p> <br> <br>
+            <h3>Full-Stack Web Dev</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam sequi non voluptas velit labore culpa, assumenda libero tenetur error vero laudantium quas qui, laboriosam animi modi cumque quod tempore.</p>
+          </div>
+          <div class="main-col col-sm-12 col-lg-4 p-5">
+            <h3>Back-End Web Dev</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque corporis libero sit commodi facilis, sint id modi dolor autem dolorem at blanditiis aspernatur eveniet voluptatem molestias eligendi odit earum numquam?</p> <br><br>
+            <h3>Search Engine Optimization</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus eius rerum magnam aut exercitationem doloremque, consequatur quo eum quaerat, at debitis maiores, ea voluptates quidem expedita? Suscipit, delectus cupiditate!</p>
+          </div>
+        </div>
+      </section>
+
+<!-- ################# sixth row #################### -->
+        <section class="container-fluid" id="my-contacts">
+        <div class="sixth-row row">
+          <div class="overlay"></div>
+          <div class="main-col col"></div>
+          <div class="main-contact col-sm-12 col-lg-3 z-1">
+            <h3>Contact Me</h3> 
+            <p>vantoineludel@gmail.com</p>
+            <p>+639123456789</p>
+          </div>
+          <div class="main-follow main-col col-sm-12 col-lg-3 z-1">
+            <h3>Follow Me</h3>
+            <p>@FACEBOOK.VILL</p>
+          </div>
+          <div class="main-col col"></div>
+        </div>
+      </section>
+
+<!-- ################# Footer #################### -->
+      <footer>
+        <div class="footercontainer">
+          <div class="socialIcons">
+               <a href="https://www.facebook.com/antoine.m.villanueva"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+               <a href="https://mail.google.com/chat/u/0/#onboarding"><i class="fa-brands fa-google-plus"></i></a>
+               <a href="https://www.youtube.com/channel/UCf6CDESjLUvHqhMEIrHl2dg"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="footerNav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Our Team</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <p>Copyright &copy;2023; Designed by <span class="designer">Antoine</span></p>
+        </div>
+      </footer>
+
+      </main>
+
+<!-- #################### Absolute Images ##################### -->
+      
+      
+
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  
+  </body>
+</html>
