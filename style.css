@@ -62,7 +62,7 @@ button.first-row-button a:hover {
 
 div.second-row {
     background-color: #FAD02C;
-    height: 60vh;
+    height: 100vh;
     padding: 50px 50px 50px 50px;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ div.fourth-row {
 
 #Main-carousel {
     margin-bottom: 100px;
-    border: white 10px solid;
+    border: #FAD02C 10px solid;
 }
 div.carousel-item > h5 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
