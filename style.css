@@ -5,15 +5,19 @@ body#main-page {
     background-repeat: no-repeat;
 }
 
-.navbar-brand h1 {
+/* .navbar-brand h1 {
     color: #90ADC6;
-}
+} */
 
-h5.offcanvas-title#offcanvasNavbarLabel {
+/* h5.offcanvas-title#offcanvasNavbarLabel {
     color: #90ADC6;
-}
+} */
 main.main-container {
     height: auto;
+}
+
+* p{
+    font-weight: 500;
 }
 /* ####### First Row ####### */
 div.first-row {
@@ -24,7 +28,7 @@ div.first-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 50px 50px 50px;
+    /* padding: 50px 50px 50px 50px; */
 }
 
 button.first-row-button {
@@ -44,26 +48,42 @@ button.first-row-button:hover {
 button.first-row-button a:hover {
     color: #FAD02C;
 }
+h1.my-name {
+    font-family: 'Heebo';
+}
 
 
 @media (min-width: 300px) and (max-width: 900px) {
     h1.my-name {
         font-size: 18px;
+        text-align: center;
+        padding-top: 50px;
     }
 
     h4.my-intro {
-        font-size: 8px;
+        font-size: 15px;
+        text-align: center;
     }
+    .my-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+            
 
 }
 
 
 /* ###### 2nd Row ###### */
 
+
+/* h1.I-make-SWS {
+    font-family: 'Heebo';
+} */
 div.second-row {
     background-color: #FAD02C;
     height: 100vh;
-    padding: 50px 50px 50px 50px;
+    /* padding: 50px 50px 50px 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,45 +111,53 @@ button.second-row-button a:hover {
 
 div.third-row {
     background-color:#333652;
-    padding: 75px 75px 0px 75px;
+    /* padding: 75px 75px 0px 75px; */
 }
 
 div.jumbotron.jumbotron-fluid {
     text-align: center;
     background: none;
+    margin-top: 50px;
 
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
     h1.I-make-SWS {
-        font-size: 18px;
+        font-size: 40px;
+        text-align: center;
     }
     h4.I-make-SWS {
-        font-size: 13px;
+        font-size: 18px;
     }
 
 }
+
 
 /* ###### 4th Row ###### */
 
 div.fourth-row {
     background-color: #333652;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #Main-carousel {
-    margin-bottom: 100px;
-    border: #FAD02C 10px solid;
+    margin-bottom: 60px;
+    border: #FAD02C 5px solid;
 }
 div.carousel-item > h5 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-
 }
 
 /* ###### Fifth Row ###### */
 
 div.fifth-row {
     background-color: #FAD02C;
-    padding: 100px 50px 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
 }
 
 div.main-col {

@@ -7,10 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/71e70727c2.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
   </head>
   <body class="vh-100" id="main-page">
     <!-- ###### NavBar ###### -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
       <div class="container-fluid">
     <!-- ##### Logo ###### -->
         <a class="navbar-brand" href="index.html"><h1>ALV</h1></a>
@@ -39,7 +45,7 @@
                 <a class="nav-link active" aria-current="page" href="#my-intro">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#about-me">About</a>
+                <a class="nav-link" href="#about-me">About Me</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="#my-projects">Portfolio</a>
@@ -66,10 +72,10 @@
       <div class="main-col col"></div>
       <div class="main-col col-sm-12 col-lg-4">
         <h1 class="display-4 my-name" style="font-weight: 500;" >Hi! My Name is Antoine</h1> <br>
-        <h4 class="my-intro fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam iure modi, neque veritatis cum odio, in corporis illo expedita non explicabo hic sed dolorum recusandae? Repellat dolor recusandae nam?</h4> <br> <br>
+        <h4 class="my-intro fw-normal" style="font-family: 'Roboto';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam iure modi, neque veritatis cum odio, in corporis illo expedita non explicabo hic sed dolorum recusandae? Repellat dolor recusandae nam?</h4> <br> <br>
         <button type="button" class="first-row-button btn btn-primary"><a href="#my-contacts ">WORK WITH ME</a></button>
       </div>
-      <div class="main-col col-sm-12 col-lg-4"><img src="images/prof-pic-antoine.png" class="img-fluid" style="border-radius: 10px; max-width: 75%; height: auto;" alt="..."></div>
+      <div class="my-photo main-col col-sm-12 col-lg-4"><img src="images/prof-pic-antoine.png" class="img-fluid" style="border-radius: 10px; max-width: 75%; height: auto;" alt="..."></div>
       <div class="main-col col"></div>
     </div>
   </section>
@@ -77,21 +83,23 @@
 <!-- ##################### 2nd Row ######################## -->
 <img src="images/antoine-ludel-villanueva-low-resolution-logo-color-on-transparent-background.png" alt="" style="position: absolute; height: 200px; top: 130vh; right: 200px; transform: rotate(30deg); opacity: .25;">
 
+<img src="images/pngwing.com.png" style="position: absolute; height: 500px; top: 115vh; right: 1300px; transform: rotate(345deg); opacity: .50;">
+
       <section class="container-fluid" id="about-me"> 
         <div class="second-row row">
           <div class="main-col col"></div>
           <div class="main-col col-sm-12 col-lg-4">
-            <h1 class="I-make-SWS display-4 fw-bold">I MAKE <br> SPECTACULAR <br> WEBSITES</h1>
+            <h1 class="I-make-SWS display-4 fw-bold" style="font-family: 'Heebo';">I MAKE <br> SPECTACULAR <br> WEBSITES</h1>
           </div>
           <div class="main-col col-sm-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-            <h4 class="I-make-SWS fw-normal" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sequi corrupti dignissimos voluptatibus odit error quidem nam nulla, vero debitis adipisci delectus. Laborum facilis possimus unde cupiditate quo dignissimos fugiat.</h4> <br>
+            <h4 class="I-make-SWS" style="text-align: center; font-family: 'Roboto', sans-serif; font-weight:500; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sequi corrupti dignissimos voluptatibus odit error quidem nam nulla, vero debitis adipisci delectus. Laborum facilis possimus unde cupiditate quo dignissimos fugiat.</h4> <br>
             <button type="button" class="second-row-button btn btn-primary"><a href="#my-projects">SEE WHAT I'VE DONE</a></button>
           </div>
           <div class="main-col col"></div>
         </div>
       </section>
 
-      <img src="images/pngwing.com.png" style="position: absolute; height: 500px; top: 115vh; right: 1300px; transform: rotate(345deg); opacity: .50;">
+      
       
 
 <!-- ######################## Third Row ###################### -->
@@ -101,8 +109,8 @@
           <div class="main-col col-sm-12 col-8">
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
-                <h1 class="display-4" style="font-weight: bold; color: #E9EAEC;">My Projects</h1>
-                <p class="lead" style="font-weight: 600; color: #E9EAEC;">Total Radness Since 2023</p>
+                <h1 class="display-4" style="font-weight: bold; color: #E9EAEC; font-family: 'Heebo';">My Projects</h1>
+                <p class="lead" style="font-weight: 600; color: #E9EAEC; font-family: 'Roboto', sans-serif;">Total Radness Since 2023</p>
               </div>
             </div>
           </div>
@@ -111,9 +119,9 @@
       </section>
       
 <!-- ################### Fourth Row ###################### -->
-       <section class="container-fluid">
+       <section class="whole-carousel container-fluid">
         <div class="fourth-row row">
-          <div class="main-col col"></div>
+          <!-- <div class="main-col col"></div> -->
           <div class="main-col col-6">
             <div id="Main-carousel" class="carousel slide">
               <div class="carousel-inner">
@@ -152,7 +160,7 @@
               </button>
             </div>
           </div>
-          <div class="main-col col"></div>
+          <!-- <div class="main-col col"></div> -->
         </div>
       </section>
       
@@ -160,19 +168,19 @@
         <section class="container-fluid">
         <div class="fifth-row row">
           <div class="main-col col-sm-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-            <h1 class="display-4" style="font-weight: 700;">WHAT I DO</h1>
+            <h1 class="display-4" style="font-weight: 700; font-family: 'Heebo';">WHAT I DO</h1>
           </div>
           <div class="main-col col-sm-12 col-lg-4 p-5">
-            <h3>Front-End Web Dev</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio facilis vero unde explicabo earum eum quis sequi inventore! Velit accusamus maiores eligendi id quaerat illo odit nihil iure laudantium pariatur?</p> <br> <br>
-            <h3>Full-Stack Web Dev</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam sequi non voluptas velit labore culpa, assumenda libero tenetur error vero laudantium quas qui, laboriosam animi modi cumque quod tempore.</p>
+            <h3 style="font-family: 'Heebo';">Front-End Web Dev</h3>
+            <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio facilis vero unde explicabo earum eum quis sequi inventore! Velit accusamus maiores eligendi id quaerat illo odit nihil iure laudantium pariatur?</p> <br> <br>
+            <h3 style="font-family: 'Heebo';">Full-Stack Web Dev</h3>
+            <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam sequi non voluptas velit labore culpa, assumenda libero tenetur error vero laudantium quas qui, laboriosam animi modi cumque quod tempore.</p>
           </div>
           <div class="main-col col-sm-12 col-lg-4 p-5">
-            <h3>Back-End Web Dev</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque corporis libero sit commodi facilis, sint id modi dolor autem dolorem at blanditiis aspernatur eveniet voluptatem molestias eligendi odit earum numquam?</p> <br><br>
-            <h3>Search Engine Optimization</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus eius rerum magnam aut exercitationem doloremque, consequatur quo eum quaerat, at debitis maiores, ea voluptates quidem expedita? Suscipit, delectus cupiditate!</p>
+            <h3 style="font-family: 'Heebo';">Back-End Web Dev</h3>
+            <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque corporis libero sit commodi facilis, sint id modi dolor autem dolorem at blanditiis aspernatur eveniet voluptatem molestias eligendi odit earum numquam?</p> <br><br>
+            <h3 style="font-family: 'Heebo';">Search Engine Optimization</h3>
+            <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus eius rerum magnam aut exercitationem doloremque, consequatur quo eum quaerat, at debitis maiores, ea voluptates quidem expedita? Suscipit, delectus cupiditate!</p>
           </div>
         </div>
       </section>
@@ -183,13 +191,13 @@
           <div class="overlay"></div>
           <div class="main-col col"></div>
           <div class="main-contact col-sm-12 col-lg-3 z-1">
-            <h3>Contact Me</h3> 
-            <p>vantoineludel@gmail.com</p>
+            <h3 style="font-family: 'Heebo';">Contact Me</h3> 
+            <p style="font-family: 'Roboto', sans-serif;">vantoineludel@gmail.com</p>
             <p>+639123456789</p>
           </div>
           <div class="main-follow main-col col-sm-12 col-lg-3 z-1">
-            <h3>Follow Me</h3>
-            <p>@FACEBOOK.VILL</p>
+            <h3 style="font-family: 'Heebo';">Follow Me</h3>
+            <p style="font-family: 'Roboto', sans-serif;">@FACEBOOK.VILL</p>
           </div>
           <div class="main-col col"></div>
         </div>
