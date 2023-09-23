@@ -107,6 +107,8 @@ button.second-row-button a:hover {
     color: black;
 }
 
+
+
 /* ###### 3rd Row ###### */
 
 div.third-row {
@@ -145,7 +147,13 @@ div.fourth-row {
 #Main-carousel {
     margin-bottom: 60px;
     border: #FAD02C 5px solid;
+    border-radius: 16px;
 }
+.carousel-inner {
+    border-radius: 16px;
+}
+
+
 div.carousel-item > h5 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
